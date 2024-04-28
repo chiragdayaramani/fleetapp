@@ -2,10 +2,10 @@ package com.example.fleetapp.models;
 
 import java.util.Date;
 
-import javax.persistence.EntityListeners;
-import javax.persistence.MappedSuperclass;
-import javax.persistence.Temporal;
-import static javax.persistence.TemporalType.TIMESTAMP;
+import jakarta.persistence.EntityListeners;
+import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.Temporal;
+import static jakarta.persistence.TemporalType.TIMESTAMP;
 
 
 import org.springframework.data.annotation.CreatedBy;
